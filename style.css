@@ -41,7 +41,7 @@ a{
 
 a:hover{
     color: red;
-    font-size: 17px;
+    font-size: 18px;
     text-decoration: underline;    
     transition: ease-in 0.3s;
 }
