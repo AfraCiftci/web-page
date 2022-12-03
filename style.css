@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: ease-in 0.5s;
+}
+
+.logo{
+    width: 170px;
+    height: 120px;
+}
+
+.header{
+    width: 70%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 7px 7px 10px gray, -7px -7px 10px gray;
+    margin: auto;
+    flex-wrap: wrap;
+    padding: 15px;
+
+}
+
+
+ul{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    margin: 20px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+a:hover{
+    color: red;
+    font-size: 17px;
+    text-decoration: underline;    
+    transition: ease-in 0.3s;
+}
+
+h1{
+    text-align: center;
+    margin: 40px;
+}
+
+.path{
+    width: 300px;
+    margin: 30px;
+    border-radius: 20px;
+    box-shadow: 7px 7px 10px gray, -7px -7px 10px gray;
+}
+
+.path:hover{
+    transform: scale(0.97);
+    transition: ease-in 0.3s;
+    box-shadow: 7px 7px 10px blue, -7px -7px 10px blue;
+
+}
+
+
+
+.main{
+   
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+
+.container{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
